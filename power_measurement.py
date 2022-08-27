@@ -24,9 +24,14 @@
 
 Requirements
 ============
-pip install modbus-tk
-pip install pyserial
-pip install Flask
+
+To set up on raspi use pip install -r requirements.txt
+Also instructions at : https://www.piddlerintheroot.com/pzem-004t/ to set up serial port
+
+Serial port came out as needing /dev/ttyUSB0 as the serial port for it to work
+Also, you need to change the port, e.g. to 8080 for it to work on the raspberrypi
+In my case: http://192.168.1.193:8080 
+
 """
 
 
