@@ -15,7 +15,7 @@
 
 
 
-# Monitor's power consumption at approx 15Hz and the server then collects
+# Monitor's power consumption at approx 3Hz and the server then collects
 # batches of that data in a single collection
 # by providing a time-based sample of recent readings 
 
